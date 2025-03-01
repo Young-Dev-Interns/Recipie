@@ -1,14 +1,13 @@
 import React from 'react'
 import './index.css'
+import CustomNavbar from './Components/Navbar/CustomNavbar'
 
 
 function App() {
 
   return (
     <>
-      <div className='text-red-500'>
-        Hi
-       </div>
+    <CustomNavbar/>
     </>
   )
 }
